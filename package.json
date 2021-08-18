@@ -6,14 +6,16 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "server": "cross-env NODE_ENV=production node server.js",
-    "docker": "docker build . -t my-next-js-app",
-    "docker:serve": "docker run -p 3000:3000 my-next-js-app"
+    "serve": "cross-env NODE_ENV=production node server.js",
+    "docker:build": "docker build . -t my-next-js-app",
+    "docker:serve": "docker run -p 3000:3000 --env-file .env.local my-next-js-app"
   },
   "dependencies": {
     "cross-env": "^7.0.3",
     "date-fns": "^2.23.0",
+    "dotenv": "^10.0.0",
     "gray-matter": "^4.0.3",
+    "newrelic": "^8.1.0",
     "next": "^11.0.0",
     "postcss-flexbugs-fixes": "^5.0.2",
     "postcss-preset-env": "^6.7.0",

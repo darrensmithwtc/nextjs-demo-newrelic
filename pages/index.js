@@ -34,6 +34,12 @@ export default function Home({ allPostsData }) {
               </small>
             </li>
           ))}
+          <li className={utilStyles.listItem}>
+            <Link href={'/posts/first-post'}>
+              <a>First Post (Static Page)</a>
+            </Link>
+            <br/>
+          </li>
         </ul>
       </section>
     </Layout>

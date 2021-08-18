@@ -5,8 +5,12 @@ import Layout from '../../components/layout'
 import { getPostData } from '../../lib/posts'
 import Date from '../../components/date'
 
+const newrelic = require('newrelic');
 
 export async function getServerSideProps({ params }) {
+
+  // Required to name the transaction
+  newrelic.setTransactionName('PostPage');
 
   const postData = await getPostData(params.id)
   return {
