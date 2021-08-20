@@ -61,7 +61,7 @@ Whilst this example uses environment variables for config management, other alte
   - We can also use tag managers to augment the pages as attributes will stay assigned to that session whilst page transitions occur.
 
 - Sessions and Funnels
-  - By Default we should be DISABLING 3rd Party Cookies as part of the New Relic Browser setup, to avoid hitting issues with Cookie Polices.
+  - By Default we should be DISABLING 3rd Party Cookies as part of the New Relic Browser setup, to avoid hitting issues with Cookie Policies.
   - However, that means we need to EITHER include a [session] attribute via way of the SPA or Tag Manager in order to give us the ability to track sessions and provider funnels.
 
 # New Relic Documentation
