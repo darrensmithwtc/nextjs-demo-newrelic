@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "cross-env": "^7.0.3",
-    "date-fns": "^2.23.0",
+    "date-fns": "^2.26.0",
     "dotenv": "^10.0.0",
     "gray-matter": "^4.0.3",
     "newrelic": "^8.1.0",
@@ -22,8 +22,9 @@
     "react": "17.0.2",
     "react-dom": "17.0.2",
     "remark": "^13.0.0",
-    "remark-html": "^13.0.1",
     "sass": "^1.43.4",
+    "remark-html": "^15.0.0",
+    "sass": "^1.37.5",
     "sharp": "^0.28.3",
     "tailwindcss": "^2.2.7"
   }
