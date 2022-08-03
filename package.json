@@ -15,7 +15,7 @@
     "date-fns": "^2.26.0",
     "dotenv": "^10.0.0",
     "gray-matter": "^4.0.3",
-    "newrelic": "^8.1.0",
+    "newrelic": "^8.17.1",
     "next": "^11.1.1",
     "postcss-flexbugs-fixes": "^5.0.2",
     "postcss-preset-env": "^6.7.0",
